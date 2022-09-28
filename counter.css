@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-image: url("subway.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#save-el {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    width: 650px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+}
+
+#count-el {
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+#incre-btn {
+    background: darkgreen;
+}
+
+#incre-btn:hover {
+    background: green;
+    font-size: 35px;
+}
+
+#decre-btn {
+    background: darkred;
+}
+
+#decre-btn:hover {
+    background: red;
+    font-size: 35px;
+}
+
+#save-btn {
+    background: darkslateblue;
+}
+
+#save-btn:hover {
+    background: rgb(132, 125, 180);
+    font-size: 35px;
+}
